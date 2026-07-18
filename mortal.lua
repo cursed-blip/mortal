@@ -671,7 +671,7 @@ function Library:create(options)
 		BackgroundTransparency = 1,
 		Centered = true,
 		Size = UDim2.fromOffset(22, 22),
-		Image = "rbxassetid://8569322835",
+		Image = "rbxassetid://71012183905634",
 		ImageColor3 = Library.CurrentTheme.StrongText
 	})
 	homeRail.MouseButton1Click:Connect(function()
