@@ -729,7 +729,7 @@ function Library:create(options)
 	local creditsTab = Library.tab(mt, {
 		Name = "Credits",
 		Internal = creditsIcon,
-		Icon = "rbxassetid://8577523456"
+		Icon = "rbxassetid://71012183905634"
 	})
 	rawset(mt, "creditsContainer", creditsTab.container)
 	creditsTab:credit{Name = "Madium", Description = "UI Library Developer", Discord = "Madium#0001"}
@@ -757,7 +757,7 @@ end
 function Library:tab(options)
 	options = self:set_defaults({
 		Name = "New Tab",
-		Icon = "rbxassetid://8569322835"
+		Icon = "rbxassetid://71012183905634"
 	}, options)
 
 	local tab = self.container:object("ScrollingFrame", {
